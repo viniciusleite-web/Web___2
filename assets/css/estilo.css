@@ -242,3 +242,32 @@ img {
     color: #90c990;
     font-size: 1.2em;
 }
+
+/* Informaçoes*/
+.info {
+    width: 100%; 
+    margin-bottom: 100px; 
+}
+.info h3 {
+    color: #90c990;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.info p{
+    color: #90c990;
+    text-align: center;
+    margin: 5px;
+}
+.info table{
+    margin: 0 auto;
+    
+}
+.info table tr {
+    height: 30px;
+}
+.info table tr td{
+    padding: 8px;
+    color: #90c990;
+}
