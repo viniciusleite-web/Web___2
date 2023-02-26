@@ -69,7 +69,7 @@
 
 /*Produtos do catalogo*/
 .produtos {
-    margin-bottom:100px;
+    margin-bottom:150px;
 }
 
 .h3__promocoes {
@@ -118,6 +118,22 @@
     background-color: #e2bc74 ;
     color: #FFFFFF;
     font-size: 1.5em;
+}
+/*Sacola*/
+.itens__sacola {
+width: 100%;
+position: fixed;
+bottom: 60px;
+}
+.sacola {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #e2bc74;
+    margin: 0 auto;
+    border-radius: 10px;
+    
 }
 
 /*Footer*/

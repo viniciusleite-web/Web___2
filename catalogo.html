@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="assets/css/catalogo.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -40,47 +41,56 @@
 
     <main class="produtos">
         <h3 class="h3__promocoes">Promoção</h3>
-            <div class="info__produtos">
-                <img class="img__produtos" src="assets/img/pao.jpg" alt="">
-                <h4 class="nome__produto">Pão Italiano</h4>
-                <p class="descricao__produto">Pão Italiano é feito com farinha de trigo, água , fermento</p>
-                <p class="valor__produto">R$ 00,00</p>
-                <button class="button__produto">+</button>
-            </div>
-            <div class="info__produtos">
-                <img  class="img__produtos" src="assets/img/variedades.jpg" alt="">
-                <h4 class="nome__produto">Croassant</h4>
-                <p class="descricao__produto">Feito de farinha , açucar , sal, leite , fermento , manteiga e ovo</p>
-                <p class="valor__produto">R$ 00,00</p>
-                <button class="button__produto">+</button>
-            </div>
-            <div class="info__produtos">
-                <img class="img__produtos" src="assets/img/bolo.jpg" alt="">
-                <h4 class="nome__produto">Bolo</h4>
-                <p class="descricao__produto">Farinha de Trigo, leite, açucar, fermento , óleo</p>
-                <p class="valor__produto">R$ 00,00</p>
-                <button class="button__produto">+</button>
-            </div>
-            <div class="info__produtos">
-                <img class="img__produtos" src="assets/img/bolo.jpg" alt="">
-                <h4 class="nome__produto">Bolo</h4>
-                <p class="descricao__produto">Farinha de Trigo, leite, açucar, fermento , óleo</p>
-                <p class="valor__produto">R$ 00,00</p>
-                <button class="button__produto">+</button>
-            </div>
-            <div class="info__produtos">
-                <img class="img__produtos" src="assets/img/bolo.jpg" alt="">
-                <h4 class="nome__produto">Bolo</h4>
-                <p class="descricao__produto">Farinha de Trigo, leite, açucar, fermento , óleo</p>
-                <p class="valor__produto">R$ 00,00</p>
-                <button class="button__produto">+</button>
-            </div>
+        <div class="info__produtos">
+            <img class="img__produtos" src="assets/img/pao.jpg" alt="">
+            <h4 class="nome__produto" id="nome__produto">Pão Italiano</h4>
+            <p class="descricao__produto">Pão Italiano é feito com farinha de trigo, água , fermento</p>
+            <p class="valor__produto" id="valor__produto">R$ 10,00</p>
+            <button class="button__produto"  id="botao__produto">+</button>
+        </div>
+        <div class="info__produtos">
+            <img class="img__produtos" src="assets/img/variedades.jpg" alt="">
+            <h4 class="nome__produto" id="nome__produto">Croassant</h4>
+            <p class="descricao__produto">Feito de farinha , açucar , sal, leite , fermento , manteiga e ovo</p>
+            <p class="valor__produto" id="valor__produto">R$ 05,00</p>
+            <button class="button__produto" id="botao__produto">+</button>
+        </div>
+        <div class="info__produtos">
+            <img class="img__produtos" src="assets/img/bolo.jpg" alt="">
+            <h4 class="nome__produto" id="nome__produto">Bolo</h4>
+            <p class="descricao__produto">Farinha de Trigo, leite, açucar, fermento , óleo</p>
+            <p class="valor__produto" id="valor__produto">R$ 15,00</p>
+            <button class="button__produto" id="botao__produto">+</button>
+        </div>
+        <div class="info__produtos">
+            <img class="img__produtos" src="assets/img/bolo.jpg" alt="">
+            <h4 class="nome__produto">Bolo</h4>
+            <p class="descricao__produto">Farinha de Trigo, leite, açucar, fermento , óleo</p>
+            <p class="valor__produto">R$ 15,00</p>
+            <button class="button__produto">+</button>
+        </div>
+        <div class="info__produtos">
+            <img class="img__produtos" src="assets/img/bolo.jpg" alt="">
+            <h4 class="nome__produto">Bolo</h4>
+            <p class="descricao__produto">Farinha de Trigo, leite, açucar, fermento , óleo</p>
+            <p class="valor__produto">R$ 20,00</p>
+            <button class="button__produto">+</button>
+        </div>
     </main>
+
+    <main class="itens__sacola">
+        <div class="sacola">
+            <div class="quantidade__itens"><span>0</span></div>
+            <p>Produtos na sacola</p>
+            <div class="valor__sacola"><span>R$ 00,00</span></div>
+        </div>
+    </main>
+    <script src="catalogo.js"></script>
 </body>
 <footer>
     <li><a href="index.html">Página Inicial</a></li>
-    <li><a href="">Fazer pedido</a></li>
+    <li><a href="">Ver Sacola</a></li>
     <li><a href="">Ligar</a></li>
-    <li><a href="">Ver rotas</a></li>
 </footer>
+
 </html>
