@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner__catalogo .img__banner-logo{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+.logo__catalogo{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+    background-color: #FFFFFF;
+
+}
+.img__logo__catalogo {
+width: 90px;
+height: 90px;
+border-radius: 5px;
+}
+
+.texto__logo__catalogo{
+    padding: 10px;
+}
+.menu__catalogo {
+    padding: 5px;
+}
+.menu__catalogo ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    text-align: center;
+}
+.menu__catalogo ul li {
+    width: 150px;
+    height: 30px;
+    /* background-color: bisque; */
+    list-style-type: none;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #e2bc74;
+    cursor: pointer;
+}
+
+.menu__catalogo ul .icone-pesquisa {
+    width: 40px;
+    border: none;
+}
+.menu__catalogo ul .icone-menu{
+   
+    width: 40px;
+    border: none;
+}
