@@ -68,6 +68,9 @@
 }
 
 /*Produtos do catalogo*/
+.produtos {
+    margin-bottom:100px;
+}
 
 .h3__promocoes {
     color: #e2bc74;
@@ -128,6 +131,7 @@ footer {
     justify-content: space-around;
     background-color: #ffdead;
     box-shadow: 0px 10px 5px 10px  rgba(0, 0, 0, 0.8);
+   
 }
 
 footer li{
