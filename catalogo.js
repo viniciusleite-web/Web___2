@@ -1,16 +1,14 @@
-const botaoProduto = document.getElementById("botao__produto");
+const botaoProduto = document.querySelectorAll("[data-botton]");
 
-botaoProduto.addEventListener("click", (evento) => {
-    const nomeProduto = document.getElementById("nome__produto").innerHTML
-    const valorProduto = document.getElementById("valor__produto").innerHTML;
-    
-     produtos = {
-        nome: nomeProduto,
-        valor: valorProduto
-    }
-    const itens =
-        [produtos]
+botaoProduto.forEach((elemento) => {
 
-    console.log(itens)
+    elemento.addEventListener("click", (evento) => {
+        const produto = []
+        produto.push(dadosProdutos())
+    })   
 })
 
+function dadosProdutos(){
+    const nome = document.querySelectorAll("[data-nome]")
+    const valor = document.querySelectorAll("[data-valor]");
+}
